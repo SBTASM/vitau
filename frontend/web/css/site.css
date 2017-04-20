@@ -1,0 +1,421 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    background: #3587d3 url("../seasons/bg1.jpg") repeat-x center top;
+    margin:0;
+    padding:0;
+}
+p {
+    margin:0 0 5px 0;
+    text-indent:1em;
+    /*text-align:justify;*/
+}
+a {
+    color:#000000;
+    text-decoration:underline;
+}
+a:hover {
+    color:#FF0000;
+}
+h2 {
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:1.2em;
+    color:#FF0000;
+    border-bottom:#FF0000 3px double;
+    margin: 0 10px 10px 20px;
+}
+
+/* HEADER */
+.header {
+    width:100%;
+    height:200px;
+    margin:0 auto;
+    background: url("../seasons/test.png") no-repeat center top;
+    position:relative;
+    top:0px;
+}
+.fixed {
+    margin:0 auto;
+    width:1000px;
+    position:relative;
+}
+.header-in {
+    width:825px;
+    height:123px;
+    position:relative;
+    top:50px;
+    left:100px;
+    background: url("../seasons/logo.png") no-repeat center left;
+}
+.logo, .logo a {
+    display:block;
+    width:370px;
+    height:125px;
+    float:left;
+}
+.header_title {
+    vertical-align: bottom;
+    height: 125px;
+    display: table-cell;
+    position: relative;
+    left: 10px;
+}
+.header_title h1 {
+    font-family:Georgia, Times, serif;
+    font-size: 1.3em;
+    font-weight: normal;
+}
+.teaser_top {
+    width:888px;
+    height:100px;
+    position:relative;
+    top:60px;
+    left:65px;
+    padding:0;
+}
+.teaser_top table {
+    float:left;
+}
+
+/* MAIN CONTENT */
+.container {
+    width:100%;
+    background: url("../seasons/line.png") repeat-y center top;
+    position:relative;
+    margin-top: 0px;
+}
+.main {
+    width:1000px;
+    margin:auto;
+    position:relative;
+}
+.left {
+    width: 680px;
+    float: right;
+    margin-right: 15px;
+}
+.right-block{
+}
+.river {
+    width:240px;
+    border:1px solid #999999;
+    float:right;
+    position:relative;
+    margin: 60px 0 0 10px;
+    z-index:1;
+}
+.right {
+    width:265px;
+    position:relative;
+    left:20px;
+    /*height: 800px;*/
+}
+.ranking {
+    text-align:justify;
+}
+.ranking h2 {
+    text-align:left;
+}
+.ranking h2 a, .ranking h2 a:hover {
+    color:red;
+    text-decoration:none;
+}
+.ranking table {
+    margin: 4px 0;
+}
+.ranking table th {
+    background:#66CCFF;
+    text-align:center;
+}
+.ranking table td {
+    background:#DFF0FF;
+}
+.align_center {
+    text-align:center;
+}
+.align_right {
+    text-align:right;
+}
+#vk_groups {
+    margin:0 auto;
+}
+.adsense {
+    width:336px;
+    height:280px;
+    float:left;
+    margin:0 15px;
+}
+.teaser_bottom {
+    width:300px;
+    max-height:280px;
+    float:left;
+}
+
+/* CATEGORY BLOCK */
+.left-block {
+    position: relative;
+    background: url("../seasons/left-block.png") no-repeat;
+    width: 275px;
+    height:40px;
+    padding:5px 0 0 5px;
+    color:#F5DEB3;
+    font-family:Georgia, Times, serif;
+    font-weight:bold;
+    left:-4px;
+    background-size: 90% 90%;
+}
+.right-block {
+    position: relative;
+    background: url("../seasons/right-block.png") no-repeat;
+    background-size: 100%;
+    width: 275px;
+    height:40px;
+    padding:5px 0 0 5px;
+    color:#F5DEB3;
+    font-family:Georgia, Times, serif;
+    font-weight:bold;
+    left:-25px;
+}
+
+.categories-right{
+    margin-right: -10px;
+}
+.categories-right a {
+    background: rgba(0, 0, 0, 0) url("../seasons/st1.gif") no-repeat scroll 0 6px;
+    border-bottom: thin solid #efefef;
+    color: black;
+    display: block;
+    font-size: 0.95em;
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-top: 0;
+    text-decoration: none;
+}
+.categories-right a:hover {
+    background-image: url("../seasons/st2.gif");
+}
+.categories-right a span, .categories a:hover span {
+    color:#999999;
+    font-size:0.9em;
+}
+.categories {
+    border-right:#FDF5F5 thin solid;
+    padding:0 10px;
+}
+.categories a {
+    background: rgba(0, 0, 0, 0) url("../seasons/st1.gif") no-repeat scroll 0 6px;
+    border-bottom: thin solid #efefef;
+    color: black;
+    display: block;
+    font-size: 0.95em;
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-top: 0;
+    text-decoration: none;
+}
+.categories a:hover {
+    background-image: url("../seasons/st2.gif");
+}
+
+.keywords{
+    font-size: 0.95em;
+    text-decoration: none;
+}
+.keywords a{
+    font-size: 0.95em;
+    text-decoration: none;
+}
+.keywords a:hover{
+    font-size: 0.95em;
+    text-decoration: none;
+}
+.categories a span, .categories a:hover span {
+    color:#999999;
+    font-size:0.9em;
+}
+
+.code {
+    text-align:left;
+    text-indent:0;
+    background:#DFF0FF;
+    padding:5px;
+}
+.separator {
+    height:20px;
+}
+
+/* FOOTER */
+.footer {
+    width:100%;
+    min-height:136px;
+    margin:auto;
+    background: url("../seasons/bottom.png") no-repeat center bottom;
+    position:relative;
+    top:0px;
+}
+.promo {
+    position: relative;
+    left: 35px;
+    width: 935px;
+    padding: 5px;
+    font-size:0.8em;
+    color:#999999;
+}
+.promo span {
+    color:#666666;
+}
+.promo a {
+    text-decoration:underline;
+    color:#999999;
+}
+.promo a:hover {
+    color:#666666;
+}
+.counters {
+    position: absolute;
+    top: 40px;
+    left: 330px;
+    height:35px;
+    margin:3px auto;
+}
+.copyright {
+    /*position: absolute;*/
+    /*top: 100px;*/
+    /*left: 220px;*/
+    /*font-size:0.9em;*/
+    color: #B2D0D6;
+
+    margin-top: 90px;
+}
+.copyright a {
+    color:#330099;
+}
+.copyright a:hover {
+    color:#3300FF;
+}
+
+/* GREETING BLOCK */
+.greeting {
+    margin:10px 0;
+    border-bottom:#DDEEFF thin solid;
+    padding:5px;
+}
+.greeting p {
+    margin:10px 0;
+}
+.author {
+    font-size:0.8em;
+    text-align:right;
+}
+.greeting_rank {
+    font-size:0.8em;
+    text-align:right;
+}
+.number {
+    float:left;
+    background:#DFF0FF;
+    border:#66CCFF thin solid;
+    padding:3px;
+}
+.button {
+    display:block;
+    background: #89c3eb;
+    background: -moz-linear-gradient(top,  #ebf1f6 0%, #abd3ee 50%, #89c3eb 51%, #d5ebfb 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebf1f6), color-stop(50%,#abd3ee), color-stop(51%,#89c3eb), color-stop(100%,#d5ebfb));
+    background: -webkit-linear-gradient(top,  #ebf1f6 0%,#abd3ee 50%,#89c3eb 51%,#d5ebfb 100%);
+    background: -o-linear-gradient(top,  #ebf1f6 0%,#abd3ee 50%,#89c3eb 51%,#d5ebfb 100%);
+    background: -ms-linear-gradient(top,  #ebf1f6 0%,#abd3ee 50%,#89c3eb 51%,#d5ebfb 100%);
+    background: linear-gradient(top,  #ebf1f6 0%,#abd3ee 50%,#89c3eb 51%,#d5ebfb 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf1f6', endColorstr='#d5ebfb',GradientType=0 );
+    padding:3px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border:#3399FF thin solid;
+    margin:0 10px;
+    text-decoration:none;
+    font-size:1em;
+    float:right;
+    color:#333399;
+    font-weight:bold;
+}
+.button:hover {
+    background: #ebf1f6;
+    background: -moz-linear-gradient(top,  #ebf1f6 0%, #abd3ee 50%, #d5ebfb 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebf1f6), color-stop(50%,#abd3ee), color-stop(100%,#d5ebfb));
+    background: -webkit-linear-gradient(top,  #ebf1f6 0%,#abd3ee 50%,#d5ebfb 100%);
+    background: -o-linear-gradient(top,  #ebf1f6 0%,#abd3ee 50%,#d5ebfb 100%);
+    background: -ms-linear-gradient(top,  #ebf1f6 0%,#abd3ee 50%,#d5ebfb 100%);
+    background: linear-gradient(top,  #ebf1f6 0%,#abd3ee 50%,#d5ebfb 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf1f6', endColorstr='#d5ebfb',GradientType=0 );
+    color:#000000;
+    cursor:pointer;
+}
+.buttons {
+    text-align:right;
+}
+
+/* PREVIEW PAGE */
+.greeting_preview  p{
+    text-indent:0;
+}
+
+.voice {
+    position:fixed;
+    left:0px;
+    top:350px;
+    width:40px;
+    height:120px;
+    display: block;
+    cursor: pointer;
+    z-index: 100001;
+    border: 2px solid white;
+    border-left: 0;
+    background: #F05A00 url("../seasons/voice.jpg") 0 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    border-radius: 0 5px 5px 0;
+    -moz-box-shadow: 1px 0 2px #888;
+    -webkit-box-shadow: 1px 0 2px #888;
+    box-shadow: 1px 0 2px #888;
+}
+
+.add {
+    position:fixed;
+    right:0px;
+    top:350px;
+    width:40px;
+    height:120px;
+    display: block;
+    cursor: pointer;
+    z-index: 100001;
+    border: 2px solid white;
+    border-right: 0;
+    background: #F05A00 url("../seasons/add.jpg") 0 0;
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    border-radius: 5px 0 0 5px;
+    -moz-box-shadow: 1px 0 2px #888;
+    -webkit-box-shadow: 1px 0 2px #888;
+    box-shadow: 1px 0 2px #888;
+}
+
+#adriver_banner_1334825029255{
+    width: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#wrap {
+    height: 413px;
+    margin: 0 0 0 50px;
+    max-width: 725px;
+    position: relative;
+    width: 376px;
+}
+
+.main-row{
+}

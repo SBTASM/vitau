@@ -1,0 +1,17 @@
+/*------customs styles------*/
+.js #header-menu {
+    display:none;
+}
+
+.js .slicknav_menu {
+    display:block;
+}
+
+#header-menu{
+    display: none;
+}
+
+.main-content{
+    margin-top: 20px;
+}
+/*------customs styles------*/
